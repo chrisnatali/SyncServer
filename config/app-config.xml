@@ -1,0 +1,14 @@
+<!-- syncServer config info -->
+<syncServer>
+    <!-- main config info -->
+    <config>
+        <!-- default max subscribers per channel -->
+    	<defaultMaxSubscribers>10</defaultMaxSubscribers>
+        <!-- unsubscribe client if no activity (and not waiting) for this length of time (milliseconds) -->
+    	<InactivityTimeout>1000</InactivityTimeout> 
+        <!-- Maximum time a thread waits for a publication (milliseconds) -->    	
+    	<WaitTimeout>6000</WaitTimeout>     	
+        <!-- default number of Publications to keep per channel -->    	
+    	<PublicationWindowSize>10</PublicationWindowSize>      	
+    </config>
+</syncServer>

@@ -1,0 +1,16 @@
+;; Object exception/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "exception/"
+  :tables (list 
+   (semanticdb-table "SyncMappingException.java"
+    :major-mode 'jde-mode
+    :tags '(("com.syncserver.exception" package nil nil [1 34]) ("SyncMappingException" type (:typemodifiers ("public") :superclasses "Exception" :members (("SyncMappingException" function (:constructor-flag t :typemodifiers ("public")) (reparse-symbol class_member_declaration) [171 278]) ("SyncMappingException" function (:constructor-flag t :typemodifiers ("public") :arguments (("arg0" variable (:type "String") (reparse-symbol formal_parameters) [309 320]))) (reparse-symbol class_member_declaration) [281 383]) ("SyncMappingException" function (:constructor-flag t :typemodifiers ("public") :arguments (("arg0" variable (:type "Throwable") (reparse-symbol formal_parameters) [414 428]))) (reparse-symbol class_member_declaration) [386 491]) ("SyncMappingException" function (:constructor-flag t :typemodifiers ("public") :arguments (("arg0" variable (:type "String") (reparse-symbol formal_parameters) [522 533]) ("arg1" variable (:type "Throwable") (reparse-symbol formal_parameters) [535 549]))) (reparse-symbol class_member_declaration) [494 618])) :type "class") nil [115 621]))
+    :file "SyncMappingException.java"
+    :pointmax 622
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre3"
+  :semanticdb-version "2.0pre3"
+  )

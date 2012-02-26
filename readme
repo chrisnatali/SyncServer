@@ -1,0 +1,4 @@
+Generic synchronization server for use by web clients.
+
+Establish a channel which any client can subscribe to and
+synchronize the data transmitted on that channel.
